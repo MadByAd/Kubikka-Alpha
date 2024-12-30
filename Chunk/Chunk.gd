@@ -2,12 +2,12 @@ extends Spatial
 tool
 
 enum {
-	TOP,
-	BOTTOM,
-	LEFT,
-	RIGHT,
-	FRONT,
-	BACK
+	TOP,	# +Y
+	BOTTOM,	# -Y
+	LEFT,	# -X
+	RIGHT,	# +X
+	FRONT,	# +Z
+	BACK	# -Z
 }
 
 
@@ -173,7 +173,6 @@ func update():
 		mesh_cao_instance = MeshInstance.new()
 	
 	st.begin(Mesh.PRIMITIVE_TRIANGLES)
-	st.set_material(material)
 	lst.begin(Mesh.PRIMITIVE_TRIANGLES)
 	aost.begin(Mesh.PRIMITIVE_TRIANGLES)
 	caost.begin(Mesh.PRIMITIVE_TRIANGLES)

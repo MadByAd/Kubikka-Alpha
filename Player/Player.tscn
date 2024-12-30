@@ -315,7 +315,7 @@ margin_bottom = 64.0
 rect_rotation = 180.0
 rect_pivot_offset = Vector2( 16, 16 )
 custom_fonts/font = ExtResource( 3 )
-text = "Z"
+text = "+Z"
 align = 1
 valign = 1
 
@@ -349,7 +349,7 @@ margin_bottom = 16.0
 rect_rotation = -90.0
 rect_pivot_offset = Vector2( 16, 16 )
 custom_fonts/font = ExtResource( 3 )
-text = "X"
+text = "+X"
 align = 1
 valign = 1
 
